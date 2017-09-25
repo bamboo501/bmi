@@ -1,0 +1,14 @@
+a=input('your weight KG')
+b=input('your hight M')
+weight=int(a)
+hight=float(b)
+bmi=weight/(hight*hight)
+print ('你的BMI指数是 ','%4.1f' % bmi)
+if bmi>32:
+	print('胖死了')
+elif 25<bmi<=32:
+	print('有点胖，得减肥了')
+elif 18.5<bmi<=25:
+	print('好身材！继续保持！')
+elif bmi<=18.5:
+    print('好瘦，多吃')
